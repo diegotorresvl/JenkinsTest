@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'ruby --version'
+                sh 'u3d list'
             }
         }
     }
